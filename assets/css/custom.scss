@@ -25,10 +25,23 @@ body {
     color: $brown !important;
 }
 
+.green {
+    color: $green !important;
+}
+
 
 
 .sm-clean a {
+    color: $green;
     font-weight: 700 !important
+}
+
+
+
+.search-icon {
+    &:before {
+        background-color: $green;
+    }
 }
 
 
@@ -62,7 +75,7 @@ body {
 
 
 .hero-header-2 {
-    background: #222222 url(../../assets/img/recycle.png);
+    background: #fff url(../../assets/img/recycle.png);
     min-height: 200px;
     h2 {
         color: #EEEEEE;
@@ -104,6 +117,14 @@ body {
     }
 }
 
+.grid-item {
+    .grid-img {
+        &:after {
+            background: transparentize($green, .7);
+        }
+    }
+}
+
 .grid-type-1 {
     figcaption {
         // background-color: $green;
@@ -122,6 +143,19 @@ body {
         }
     }
 }
+
+
+
+
+
+.contact-4 {
+    .main-heading {
+        h3 {
+            color: $brown;
+        }
+    }
+}
+
 
 
 
