@@ -1,0 +1,75 @@
+body {
+  background: url("../../assets/img/bg.gif") repeat center !important; }
+
+.mb1em {
+  margin-bottom: 1em !important; }
+
+.mb2em {
+  margin-bottom: 2em !important; }
+
+.bttn-blue {
+  background: #3ac14e !important; }
+
+.brown {
+  color: #8c6a47 !important; }
+
+.sm-clean a {
+  font-weight: 700 !important; }
+
+.content-block-8 {
+  background: url("../../assets/img/bg.gif") repeat center; }
+  .content-block-8 .bubble {
+    background: #3ac14e;
+    color: #FFFFFF; }
+    .content-block-8 .bubble:after {
+      border-color: #3ac14e transparent; }
+  .content-block-8 h3 {
+    color: #8c6a47; }
+  .content-block-8 .author {
+    color: #777777; }
+    .content-block-8 .author .name {
+      color: #111111; }
+  .content-block-8 .subh-basic-light {
+    color: #3ac14e; }
+  .content-block-8 .feature p {
+    color: #777777; }
+
+.hero-header-2 {
+  background: #222222 url(../../assets/img/recycle.png);
+  min-height: 200px; }
+  .hero-header-2 h2 {
+    color: #EEEEEE;
+    font-size: 32px !important; }
+
+.clients-1 {
+  background: url("../../assets/img/bg.gif") repeat center; }
+
+.portfolio-2 {
+  background: url("../../assets/img/bg.gif") repeat center; }
+  .portfolio-2 .grid {
+    margin-top: 0;
+    padding: 0; }
+
+.testimonial-1 {
+  background: #222 url("https://images.unsplash.com/photo-1494208133010-7227229a632a?auto=format&fit=crop&w=334&q=80"); }
+  .testimonial-1 .position {
+    color: #ccc; }
+
+.grid figure {
+  border: 1px solid #ddd; }
+
+.grid-type-1 figcaption:hover .project {
+  color: #3ac14e; }
+
+.grid-type-1 .company {
+  color: #444; }
+
+.grid-type-1.gutter figcaption {
+  padding-bottom: 10px; }
+
+.footer-3 ul li a:hover {
+  color: #3ac14e; }
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
+  .testimonial-1 {
+    background: #222222 url(../../img/bg/bg02.jpg); } }

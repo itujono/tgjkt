@@ -1,0 +1,148 @@
+
+@import "var.scss";
+
+body {
+    background: url("../../assets/img/bg.gif") repeat center !important;
+}
+
+
+
+.mb1em {
+    margin-bottom: 1em !important;
+}
+
+.mb2em {
+    margin-bottom: 2em !important;
+}
+
+
+
+.bttn-blue {
+    background: $green !important;
+}
+
+.brown {
+    color: $brown !important;
+}
+
+
+
+.sm-clean a {
+    font-weight: 700 !important
+}
+
+
+
+.content-block-8 {
+    background: url("../../assets/img/bg.gif") repeat center;
+    .bubble {
+        background: $green;
+        color: #FFFFFF;
+        &:after {
+            border-color: $green transparent;
+        }
+    }
+    h3 {
+        color: $brown;
+    }
+    .author {
+        color: #777777;
+        .name {
+            color: #111111;
+        }
+    }
+    .subh-basic-light {
+        color: $green;
+    }
+    .feature p {
+        color: #777777
+    }
+}
+
+
+
+.hero-header-2 {
+    background: #222222 url(../../assets/img/recycle.png);
+    min-height: 200px;
+    h2 {
+        color: #EEEEEE;
+        font-size: 32px !important;
+    }
+}
+
+
+
+
+.clients-1 {
+    background: url("../../assets/img/bg.gif") repeat center;
+}
+
+.portfolio-2 {
+    background: url("../../assets/img/bg.gif") repeat center;
+    .grid {
+        margin-top: 0;
+        padding: 0;
+    }
+}
+
+
+
+
+.testimonial-1 {
+    background: #222 url("https://images.unsplash.com/photo-1494208133010-7227229a632a?auto=format&fit=crop&w=334&q=80");
+    .position {
+        color: #ccc;
+    }
+}
+
+
+
+
+.grid {
+    figure {
+        border: 1px solid #ddd;
+    }
+}
+
+.grid-type-1 {
+    figcaption {
+        // background-color: $green;
+        &:hover {
+            .project {
+                color: $green;
+            }
+        }
+    }
+    .company {
+        color: #444;
+    }
+    &.gutter {
+        figcaption {
+            padding-bottom: 10px;
+        }
+    }
+}
+
+
+
+
+.footer-3 {
+    ul {
+        li {
+            a:hover {
+                color: $green;
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+    .testimonial-1 {
+        background: #222222 url(../../img/bg/bg02.jpg)
+    }
+}
