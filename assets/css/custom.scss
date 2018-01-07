@@ -105,7 +105,7 @@ body {
 
 
 .hero-header-2 {
-    background: #fff url(../../assets/img/recycle.png);
+    background: #fff url("https://images.unsplash.com/photo-1503149779833-1de50ebe5f8a?auto=format&fit=crop&w=375&q=80");
     min-height: 200px;
     h2 {
         color: #EEEEEE;
@@ -193,6 +193,7 @@ body {
 
 
 .contact-4 {
+    background: initial;
     .main-heading {
         h3 {
             color: $brown;
@@ -229,9 +230,17 @@ body {
 .footer-3 {
     ul {
         li {
-            a:hover {
-                color: $green;
+            a {
+                color: #999;
+                &:hover {
+                    color: $green;
+                }
             }
+        }
+    }
+    .ti-arrow-circle-up {
+        &:hover {
+            color: $green;
         }
     }
 }

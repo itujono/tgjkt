@@ -62,7 +62,7 @@ body {
     margin-bottom: 40px; }
 
 .hero-header-2 {
-  background: #fff url(../../assets/img/recycle.png);
+  background: #fff url("https://images.unsplash.com/photo-1503149779833-1de50ebe5f8a?auto=format&fit=crop&w=375&q=80");
   min-height: 200px; }
   .hero-header-2 h2 {
     color: #EEEEEE;
@@ -108,8 +108,10 @@ body {
 .grid-type-1.gutter figcaption {
   padding-bottom: 10px; }
 
-.contact-4 .main-heading h3 {
-  color: #8c6a47; }
+.contact-4 {
+  background: initial; }
+  .contact-4 .main-heading h3 {
+    color: #8c6a47; }
 
 .zoom-gallery > div {
   margin-bottom: 1.4em; }
@@ -128,7 +130,12 @@ body {
   .gallery-heading img {
     margin-right: 1em; }
 
-.footer-3 ul li a:hover {
+.footer-3 ul li a {
+  color: #999; }
+  .footer-3 ul li a:hover {
+    color: #3ac14e; }
+
+.footer-3 .ti-arrow-circle-up:hover {
   color: #3ac14e; }
 
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {

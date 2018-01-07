@@ -1,7 +1,4 @@
-/* ----------------------------------
-Description: Script for Home Agency
-Name: demo1.js
----------------------------------- */
+
 
 function demo_1() {
     (function($) {
