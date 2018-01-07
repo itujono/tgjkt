@@ -22,6 +22,13 @@ body {
 .sm-clean a {
   color: #3ac14e;
   font-weight: 700 !important; }
+  .sm-clean a:hover {
+    color: initial; }
+  .sm-clean a.active {
+    color: #333; }
+
+#main-nav .brand-name {
+  margin-top: 0; }
 
 .search-icon:before {
   background-color: #3ac14e; }
@@ -44,12 +51,33 @@ body {
   .content-block-8 .feature p {
     color: #777777; }
 
+.content-block-10 {
+  background: initial; }
+  .content-block-10 .icon {
+    font-size: 30px; }
+  .content-block-10 .subh-basic-light {
+    margin-top: 10px;
+    color: #3ac14e; }
+  .content-block-10 .feature {
+    margin-bottom: 40px; }
+
 .hero-header-2 {
   background: #fff url(../../assets/img/recycle.png);
   min-height: 200px; }
   .hero-header-2 h2 {
     color: #EEEEEE;
     font-size: 32px !important; }
+
+.hero-header-3 #watch {
+  margin-bottom: -20%; }
+
+.hero-header-3 h2 {
+  color: #3ac14e;
+  line-height: 1; }
+
+.hero-header-3 .bttn {
+  border: initial;
+  color: initial; }
 
 .clients-1 {
   background: url("../../assets/img/bg.gif") repeat center; }

@@ -37,7 +37,19 @@ body {
 
 .sm-clean a {
     color: $green;
-    font-weight: 700 !important
+    font-weight: 700 !important;
+    &:hover {
+        color: initial;
+    }
+    &.active {
+        color: #333;
+    }
+}
+
+#main-nav {
+    .brand-name {
+        margin-top: 0;
+    }
 }
 
 
@@ -76,6 +88,20 @@ body {
     }
 }
 
+.content-block-10 {
+    background: initial;
+    .icon {
+        font-size: 30px;
+    }
+    .subh-basic-light {
+        margin-top: 10px;
+        color: $green;
+    }
+    .feature {
+        margin-bottom: 40px;
+    }
+}
+
 
 
 .hero-header-2 {
@@ -84,6 +110,20 @@ body {
     h2 {
         color: #EEEEEE;
         font-size: 32px !important;
+    }
+}
+
+.hero-header-3 {
+    #watch {
+        margin-bottom: -20%;
+    }
+    h2 {
+        color: $green;
+        line-height: 1;
+    }
+    .bttn {
+        border: initial;
+        color: initial;
     }
 }
 
