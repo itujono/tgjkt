@@ -159,6 +159,28 @@ body {
 
 
 
+.zoom-gallery {
+    > div {
+        margin-bottom: 1.4em;
+        &:hover {
+            transform: translateY(-5px);
+        }
+    }
+}
+
+
+
+
+.gallery-heading {
+    display: flex;
+    align-items: center;
+    img {
+        margin-right: 1em;
+    }
+}
+
+
+
 
 .footer-3 {
     ul {

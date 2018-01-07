@@ -80,6 +80,23 @@ body {
 .contact-4 .main-heading h3 {
   color: #8c6a47; }
 
+.zoom-gallery > div {
+  margin-bottom: 1.4em; }
+  .zoom-gallery > div:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px); }
+
+.gallery-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .gallery-heading img {
+    margin-right: 1em; }
+
 .footer-3 ul li a:hover {
   color: #3ac14e; }
 
