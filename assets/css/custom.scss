@@ -199,6 +199,17 @@ body {
             color: $brown;
         }
     }
+    .wrapper {
+        height: 550px;
+        max-height: 550px;
+    }
+    form {
+        input, textarea {
+            &:focus {
+                border-color: $green;
+            }
+        }
+    }
 }
 
 

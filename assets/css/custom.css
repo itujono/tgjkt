@@ -112,6 +112,11 @@ body {
   background: initial; }
   .contact-4 .main-heading h3 {
     color: #8c6a47; }
+  .contact-4 .wrapper {
+    height: 550px;
+    max-height: 550px; }
+  .contact-4 form input:focus, .contact-4 form textarea:focus {
+    border-color: #3ac14e; }
 
 .zoom-gallery > div {
   margin-bottom: 1.4em; }
